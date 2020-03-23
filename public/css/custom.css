@@ -1,0 +1,23 @@
+#bg-main-content {
+  background: url("../img/background.png");
+}
+
+@media (max-width: 767px) {
+  #bg-main-content {
+    background-image: none;
+    background-color: #282958;
+  }
+}
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+  #bg-main-content {
+    background-image: none;
+    background-color: #282958;
+  }
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
