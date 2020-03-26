@@ -15,10 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('/');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('admin/home', 'HomeController@adminHome')->name('admin.home')->middleware('is_admin');
+// Admin Routes
+Route::get('admin/', 'HomeController@adminHome')->name('admin.home')->middleware('is_admin');
+Route::get('admin/pengabdian', 'PengabdianController@index')->name('admin.pengabdian')->middleware('is_admin');
+

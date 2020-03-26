@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\User;
+use Faker\Factory as Faker;
+
 
 class CreateUsersSeeder extends Seeder
 {
@@ -13,23 +14,20 @@ class CreateUsersSeeder extends Seeder
     public function run()
     {
         //
-         $user = [
-            [
-               'name'=>'Admin',
-               'email'=>'admin@admin.com',
-                'is_admin'=>'1',
-               'password'=> bcrypt('123456'),
-            ],
-            [
-               'name'=>'User',
-               'email'=>'user@user.com',
-                'is_admin'=>'0',
-               'password'=> bcrypt('123456'),
-            ],
-        ];
-  
-        foreach ($user as $key => $value) {
-            User::create($value);
+        $faker = Faker::create('id_ID');
+
+        for ($i = 1; $i <= 5; $i++) {
+
+
+            DB::table('users')->insert([
+                'name' => $faker->name,
+                'nim' => '201810370311000' + rand(0, 999),
+                'phone_number' => $faker->phoneNumber,
+                'email' => $faker->freeEmail,
+                'is_admin' => '0',
+                'password' => bcrypt('123456'),
+
+            ]);
         }
     }
 }

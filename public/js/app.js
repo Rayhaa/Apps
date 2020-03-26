@@ -29893,10 +29893,6 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-document.getElementById('nav-toggle').onclick = function () {
-  document.getElementById("nav-content").classList.toggle("hidden");
-};
-
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
