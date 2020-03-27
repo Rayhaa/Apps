@@ -16,7 +16,7 @@
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-black-alt font-sans leading-normal tracking-normal">
+<body class="!bg-black-alt font-sans leading-normal tracking-normal">
     <div id="app">
         <x-dashboard-header />
 

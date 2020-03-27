@@ -44,11 +44,18 @@ class LoginController extends Controller
         $input = $request->all();
 
         $this->validate($request, [
-            'email' => 'required|email',
+            'login' => 'required',
             'password' => 'required',
         ]);
 
-         if(auth()->attempt(array('email' => $input['email'], 'password' => $input['password'])))
+        $login_type = filter_var($request->input('login'), FILTER_VALIDATE_EMAIL) ? 'email' : 'nim';
+
+        $request->merge([
+            $login_type => $request->input('login')
+        ]);
+
+
+         if(auth()->attempt($request->only($login_type, 'password')))
         {
             if (auth()->user()->is_admin == 1) {
                 return redirect()->route('admin.home');

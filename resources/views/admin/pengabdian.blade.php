@@ -2,7 +2,7 @@
 
 @section('content')
 <div>
-    <div class="my-6 container jutify-center mx-auto text-white">
+    <div class="flex justify-center my-6 container mx-auto">
 
         <table>
             <thead>

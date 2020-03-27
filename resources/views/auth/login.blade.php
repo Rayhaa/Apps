@@ -14,13 +14,13 @@
                     @csrf
 
                     <div class="flex flex-wrap mb-6">
-                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">
-                            {{ __('E-Mail Address') }}:
+                        <label for="username" class="block text-gray-700 text-sm font-bold mb-2">
+                            {{ __('Useraname') }}:
                         </label>
 
-                        <input id="email" type="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline @error('email') border-red-500 @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="email">
+                        <input id="username" type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline @error('username') border-red-500 @enderror" name="login" value="{{ old('nim') ?: old('email') }}" required autofocus placeholder="username">
 
-                        @error('email')
+                        @error('username')
                         <p class="text-red-500 text-xs italic mt-4">
                             {{ $message }}
                         </p>
