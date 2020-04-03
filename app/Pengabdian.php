@@ -10,4 +10,8 @@ class Pengabdian extends Model
         'nim', 'start_from', 'end_on',
     ];
 
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
 }

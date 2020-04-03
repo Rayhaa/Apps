@@ -1,10 +1,9 @@
 
-@tailwind base;
+@import "tailwindcss/base";
 
-@tailwind components;
+@import "tailwindcss/components";
 
-@tailwind utilities;
-
+@import "tailwindcss/utilities";
 $fa-font-path: "../fonts";
 
 @import '~@fortawesome/fontawesome-free/scss/fontawesome';

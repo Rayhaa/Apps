@@ -25,3 +25,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('admin/', 'HomeController@adminHome')->name('admin.home')->middleware('is_admin');
 // Route::get('admin/pengabdian', 'PengabdianController@index')->name('admin.pengabdian')->middleware('is_admin');
 Route::resource('admin/pengabdian','PengabdianController')->middleware('is_admin');
+Route::get('/sertifikat', function () {
+    return view('sertifikat');
+});

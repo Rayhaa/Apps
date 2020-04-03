@@ -13,5 +13,6 @@
             {{ $data->nim }}<br>
         @endforeach
     </div>
+    
 </div>
 @endsection()

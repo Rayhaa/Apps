@@ -1,12 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Users;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use App\Pengabdian;
 
-class PengabdianController extends Controller
+class PengabdianUsersController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,18 +15,6 @@ class PengabdianController extends Controller
     public function index()
     {
         //
-        // $pengabdian = Pengabdian::latest()->paginate(5);
-        // return view('admin.pengabdian', compact('pengabdian'))
-        //    
-        $pengabdian = DB::table('pengabdians')
-                            ->join('users', 'pengabdians.nim', '=', 'users.nim')
-                            
-                            ->paginate(5);
-        return view('admin.pengabdian', ['pengabdian' => $pengabdian])
-            ->with('i', (request()->input('page', 1) - 1) * 5);
-
-
-
     }
 
     /**

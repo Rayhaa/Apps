@@ -13949,7 +13949,7 @@ video {
 }
 
 /*!
- * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
@@ -14763,6 +14763,10 @@ readers do not read off random characters that represent icons */
 
 .fa-box-open:before {
   content: "\F49E";
+}
+
+.fa-box-tissue:before {
+  content: "\F95B";
 }
 
 .fa-boxes:before {
@@ -15649,6 +15653,10 @@ readers do not read off random characters that represent icons */
   content: "\F393";
 }
 
+.fa-disease:before {
+  content: "\F7FA";
+}
+
 .fa-divide:before {
   content: "\F529";
 }
@@ -15955,6 +15963,10 @@ readers do not read off random characters that represent icons */
 
 .fa-fast-forward:before {
   content: "\F050";
+}
+
+.fa-faucet:before {
+  content: "\F905";
 }
 
 .fa-fax:before {
@@ -16605,8 +16617,16 @@ readers do not read off random characters that represent icons */
   content: "\F4BE";
 }
 
+.fa-hand-holding-medical:before {
+  content: "\F95C";
+}
+
 .fa-hand-holding-usd:before {
   content: "\F4C0";
+}
+
+.fa-hand-holding-water:before {
+  content: "\F4C1";
 }
 
 .fa-hand-lizard:before {
@@ -16653,6 +16673,10 @@ readers do not read off random characters that represent icons */
   content: "\F257";
 }
 
+.fa-hand-sparkles:before {
+  content: "\F95D";
+}
+
 .fa-hand-spock:before {
   content: "\F259";
 }
@@ -16665,8 +16689,20 @@ readers do not read off random characters that represent icons */
   content: "\F4C4";
 }
 
+.fa-hands-wash:before {
+  content: "\F95E";
+}
+
 .fa-handshake:before {
   content: "\F2B5";
+}
+
+.fa-handshake-alt-slash:before {
+  content: "\F95F";
+}
+
+.fa-handshake-slash:before {
+  content: "\F960";
 }
 
 .fa-hanukiah:before {
@@ -16695,6 +16731,22 @@ readers do not read off random characters that represent icons */
 
 .fa-hdd:before {
   content: "\F0A0";
+}
+
+.fa-head-side-cough:before {
+  content: "\F961";
+}
+
+.fa-head-side-cough-slash:before {
+  content: "\F962";
+}
+
+.fa-head-side-mask:before {
+  content: "\F963";
+}
+
+.fa-head-side-virus:before {
+  content: "\F964";
 }
 
 .fa-heading:before {
@@ -16793,6 +16845,10 @@ readers do not read off random characters that represent icons */
   content: "\F47E";
 }
 
+.fa-hospital-user:before {
+  content: "\F80D";
+}
+
 .fa-hot-tub:before {
   content: "\F593";
 }
@@ -16827,6 +16883,10 @@ readers do not read off random characters that represent icons */
 
 .fa-house-damage:before {
   content: "\F6F1";
+}
+
+.fa-house-user:before {
+  content: "\F965";
 }
 
 .fa-houzz:before {
@@ -17077,6 +17137,10 @@ readers do not read off random characters that represent icons */
   content: "\F5FC";
 }
 
+.fa-laptop-house:before {
+  content: "\F966";
+}
+
 .fa-laptop-medical:before {
   content: "\F812";
 }
@@ -17231,6 +17295,14 @@ readers do not read off random characters that represent icons */
 
 .fa-luggage-cart:before {
   content: "\F59D";
+}
+
+.fa-lungs:before {
+  content: "\F604";
+}
+
+.fa-lungs-virus:before {
+  content: "\F967";
 }
 
 .fa-lyft:before {
@@ -17777,6 +17849,10 @@ readers do not read off random characters that represent icons */
   content: "\F704";
 }
 
+.fa-people-arrows:before {
+  content: "\F968";
+}
+
 .fa-people-carry:before {
   content: "\F4CE";
 }
@@ -17905,6 +17981,10 @@ readers do not read off random characters that represent icons */
   content: "\F5B0";
 }
 
+.fa-plane-slash:before {
+  content: "\F969";
+}
+
 .fa-play:before {
   content: "\F04B";
 }
@@ -18003,6 +18083,14 @@ readers do not read off random characters that represent icons */
 
 .fa-project-diagram:before {
   content: "\F542";
+}
+
+.fa-pump-medical:before {
+  content: "\F96A";
+}
+
+.fa-pump-soap:before {
+  content: "\F96B";
 }
 
 .fa-pushed:before {
@@ -18385,6 +18473,10 @@ readers do not read off random characters that represent icons */
   content: "\F3ED";
 }
 
+.fa-shield-virus:before {
+  content: "\F96C";
+}
+
 .fa-ship:before {
   content: "\F21A";
 }
@@ -18583,6 +18675,10 @@ readers do not read off random characters that represent icons */
 
 .fa-snowplow:before {
   content: "\F7D2";
+}
+
+.fa-soap:before {
+  content: "\F96E";
 }
 
 .fa-socks:before {
@@ -18805,12 +18901,24 @@ readers do not read off random characters that represent icons */
   content: "\F2F2";
 }
 
+.fa-stopwatch-20:before {
+  content: "\F96F";
+}
+
 .fa-store:before {
   content: "\F54E";
 }
 
 .fa-store-alt:before {
   content: "\F54F";
+}
+
+.fa-store-alt-slash:before {
+  content: "\F970";
+}
+
+.fa-store-slash:before {
+  content: "\F971";
 }
 
 .fa-strava:before {
@@ -19127,6 +19235,10 @@ readers do not read off random characters that represent icons */
 
 .fa-toilet-paper:before {
   content: "\F71E";
+}
+
+.fa-toilet-paper-slash:before {
+  content: "\F972";
 }
 
 .fa-toolbox:before {
@@ -19545,6 +19657,18 @@ readers do not read off random characters that represent icons */
   content: "\F1CA";
 }
 
+.fa-virus:before {
+  content: "\F974";
+}
+
+.fa-virus-slash:before {
+  content: "\F975";
+}
+
+.fa-viruses:before {
+  content: "\F976";
+}
+
 .fa-vk:before {
   content: "\F189";
 }
@@ -19826,7 +19950,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*!
- * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
@@ -19837,7 +19961,7 @@ readers do not read off random characters that represent icons */
 
   font-weight: 400;
 
-  font-display: auto;
+  font-display: block;
 
   src: url("../fonts/fa-regular-400.eot");
 
@@ -19850,7 +19974,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*!
- * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
@@ -19861,7 +19985,7 @@ readers do not read off random characters that represent icons */
 
   font-weight: 900;
 
-  font-display: auto;
+  font-display: block;
 
   src: url("../fonts/fa-solid-900.eot");
 
@@ -19875,7 +19999,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*!
- * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
@@ -19886,7 +20010,7 @@ readers do not read off random characters that represent icons */
 
   font-weight: 400;
 
-  font-display: auto;
+  font-display: block;
 
   src: url("../fonts/fa-brands-400.eot");
 
