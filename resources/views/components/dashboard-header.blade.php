@@ -75,7 +75,7 @@
                     </a>
                 </li>
                 <li class="mr-6 my-2 md:my-0">
-                    <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-100 border-b-2 border-gray-900  hover:border-purple-400">
+                    <a href="{{ route ('praktikum') }}" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-100 border-b-2 border-gray-900  hover:border-purple-400">
                         <i class="fa fa-envelope fa-fw mr-3"></i>
                         <span class="pb-1 md:pb-0 text-sm">Keaktifan praktikum</span>
                     </a>

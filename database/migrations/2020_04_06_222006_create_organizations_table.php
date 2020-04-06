@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePraktikumTable extends Migration
+class CreateOrganizationsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,10 @@ class CreatePraktikumTable extends Migration
      */
     public function up()
     {
-        Schema::create('praktikums', function (Blueprint $table) {
+        Schema::create('organizations', function (Blueprint $table) {
             $table->id();
             $table->string('nim');
-            $table->string('kelas');
-            $table->string('praktikum');
-            $table->timestamp('jadwal');
+            $table->timestamp('tgl_acara');
             $table->timestamps();
         });
     }
@@ -30,6 +28,6 @@ class CreatePraktikumTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('praktikum');
+        Schema::dropIfExists('organizations');
     }
 }
